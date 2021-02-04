@@ -223,12 +223,12 @@
 	species = "glowshroom"
 	plantname = "Glowshrooms"
 	product = /obj/item/reagent_containers/food/snacks/grown/mushroom/glowshroom
-	lifespan = 100 //ten times that is the delay
-	endurance = 30
+	lifespan = 50 //five times that is the delay
+	endurance = 10
 	maturation = 15
-	production = 1
-	yield = 3 //-> spread
-	potency = 30 //-> brightness
+	production = 4
+	yield = 2 //-> spread
+	potency = 15 //-> brightness
 	growthstages = 4
 	rarity = 20
 	genes = list(/datum/plant_gene/trait/glow, /datum/plant_gene/trait/plant_type/fungal_metabolism)
